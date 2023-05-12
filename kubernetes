@@ -1,0 +1,10 @@
+kubectl
+
+k config get-contexts | grep abcde
+k config use-context k8s-saas-abcde
+k config current-context
+
+k cp ~/tmp/abc.yaml -n cc-namespace cc-pods:/tmp/abc.yaml
+
+k delete pods cc-pods -n cc-namespace
+k delete hpa hpa_name -n cc-namespace
