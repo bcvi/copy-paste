@@ -1,6 +1,7 @@
 # Git
 
 # https://git-scm.com/docs
+# https://github.com/OneSizeFitsQuorum/git-tips
 
 
 
